@@ -44,7 +44,14 @@ blockquote{margin:22px 0;padding:13px 16px;background:var(--notice);
   border:1px solid var(--notice-line);border-left:4px solid var(--notice-line);
   border-radius:6px;font-size:14px;color:var(--fg)}
 blockquote strong{color:inherit}
-.meta{color:var(--muted);font-size:13px;margin:0 0 24px}
+.meta{color:var(--muted);font-size:13px;margin:0 0 20px}
+/* 広告表記（ステマ規制対応）。控えめだが読み取れる大きさを保つこと */
+.pr-note{margin:0 0 18px;font-size:12px;color:var(--muted);letter-spacing:.02em}
+.disclosure{margin:32px 0 0;padding:16px 18px;background:var(--card);
+  border:1px solid var(--line);border-radius:8px;font-size:13px;color:var(--muted)}
+.disclosure p{margin:0 0 10px;line-height:1.75}
+.disclosure p:last-child{margin-bottom:0}
+.disclosure strong{color:var(--fg)}
 ul,ol{padding-left:1.3em}
 li{margin:8px 0}
 ul li::marker{color:var(--accent)}
@@ -112,24 +119,40 @@ footer a{color:var(--muted)}
 <body>
 <header><div class="wrap"><a href="https://shota-dokusha.github.io/rakuten-pet-site/">犬とくらす道具ノート</a></div></header>
 <main class="wrap">
+<p class="pr-note">本ページはプロモーションを含みます</p>
 <h1>犬とくらす道具ノート</h1>
 <p>犬と暮らしていて実際にぶつかる困りごとから、道具を選び直しています。楽天市場の実売データ（レビュー件数・評価・価格）と、飼い主としての実感の両方で書いています。</p>
-<blockquote>当サイトは楽天アフィリエイトのリンクを含みます。</blockquote>
 <h2>記事一覧</h2>
 <ul class="list">
 <li>
+  <a class="thumb product" href="articles/dog-toilet-tray.html"><img src="https://thumbnail.image.rakuten.co.jp/@0_mall/k-digital/cabinet/shohin01/pet/inb-ttr/inb-ttrtoprakuten.jpg?_ex=400x400" alt="" loading="lazy" width="128" height="80"></a>
+  <div class="body">
+    <a href="articles/dog-toilet-tray.html">犬のトイレトレー、素材とサイズのどこを見れば失敗しないか</a>
+    <p>トイレを決めた場所でしてくれない、シーツがずれる、掃除が追いつかない——そういう問題はトレーの素材や構造が合っていないだけのことがある。高床式・シリコン・メッシュそれぞれどんな犬に向くか、小型犬向けの選び方を整理した。</p>
+    <time datetime="2026-08-19">2026-08-19</time>
+  </div>
+</li>
+<li>
+  <a class="thumb product" href="articles/dog-toy-chiiku.html"><img src="https://thumbnail.image.rakuten.co.jp/@0_mall/nichian/cabinet/08084330/08386219/10589987/1.jpg?_ex=400x400" alt="" loading="lazy" width="128" height="80"></a>
+  <div class="body">
+    <a href="articles/dog-toy-chiiku.html">小型犬に知育おもちゃを買うとき、どの価格帯がちょうどいいか</a>
+    <p>知育おもちゃには、ノーズワーク系、フードボール系、音が鳴るぬいぐるみ系など種類が多い。1,000円台から4,000円近いものまで、価格帯と用途で何がどう変わるのか、チワワと暮らしている飼い主が6種類を並べて整理してみた。</p>
+    <time datetime="2026-08-19">2026-08-19</time>
+  </div>
+</li>
+<li>
   <a class="thumb product" href="articles/dog-cart.html"><img src="https://thumbnail.image.rakuten.co.jp/@0_mall/next-online/cabinet/11509139/imgrc0144434822.jpg?_ex=400x400" alt="" loading="lazy" width="128" height="80"></a>
   <div class="body">
-    <a href="articles/dog-cart.html">中型犬とのお出かけ用カート、価格帯でどう違うか</a>
-    <p>中型犬を乗せるカートは、安いものと高いもので何が変わるのか。耐荷重・タイヤ・折りたたみやすさの違いを、価格帯ごとに整理しました。評価されている点だけでなく、気になる弱点も飼い主の目線で書いています。</p>
+    <a href="articles/dog-cart.html">小型犬のペットカート、5千円台から7万円台まで何が違うか</a>
+    <p>ペットカートは値段の幅が広い。6千円を切るものから、7万円を超えるものまである。散歩が難しい日、通院のとき、人混みの中に連れていきたいとき、小型犬と一緒に出かけやすくするために何を選べばいいか。価格帯ごとに何が変わるかを整理した。</p>
     <time datetime="2026-08-18">2026-08-18</time>
   </div>
 </li>
 <li>
   <a class="thumb product" href="articles/dog-circle.html"><img src="https://thumbnail.image.rakuten.co.jp/@0_mall/maxshare/cabinet/master/1st2/max-a09192.jpg?_ex=400x400" alt="" loading="lazy" width="128" height="80"></a>
   <div class="body">
-    <a href="articles/dog-circle.html">大型犬のサークル、素材と高さで選び方が変わる</a>
-    <p>折りたたみ・スチール・木製で、向いている使い方がまるで違います。大型犬の場合にどこを見て決めればいいのか、高さ・重さ・扉の仕組みという実際に効いてくる部分から整理しました。</p>
+    <a href="articles/dog-circle.html">小型犬のサークルをどれにするか、定番の売れ筋から考えてみた</a>
+    <p>サークルを選ぼうとすると、形も価格帯もバラバラで、どれが合うのかよくわからなくなる。折りたたみタイプ、フェンス型、木製のインテリア型など種類も多い。実際によく売れているものを順に見ながら、使い方に合った選び方を整理してみた。</p>
     <time datetime="2026-08-18">2026-08-18</time>
   </div>
 </li>
